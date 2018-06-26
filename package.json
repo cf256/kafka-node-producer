@@ -1,6 +1,6 @@
 {
   "name": "kafka-node-producer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple kafka node producer",
   "main": "index.js",
   "scripts": {
