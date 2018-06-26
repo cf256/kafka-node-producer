@@ -57,8 +57,8 @@ class KafkaProducer {
   static async build(topic) {
     try {
       const client = kafka.Client(
-        process.env.KAFKA_CONNECTION_STRING,
-        process.env.KAFKA_CLIENT_ID
+        process.env.KAFKA_CONNECTION_STRING || "localhost:2181/",
+        process.env.KAFKA_CLIENT_ID || "node-kafka-producer"
       );
 
       const producer = new Producer(client, { requireAcks: 1 });
