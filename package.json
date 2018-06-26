@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cf256/kafka-node-producer/issues"
   },
-  "homepage": "https://github.com/cf256/kafka-node-producer#readme"
+  "homepage": "https://github.com/cf256/kafka-node-producer#readme",
+  "dependencies": {
+    "kafka-node": "^2.6.1"
+  }
 }
